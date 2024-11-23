@@ -1,0 +1,237 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.first{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.744),rgba(34, 33, 33, 0.656)),url(https://assets.nflxext.com/ffe/siteui/vlv3/655a9668-b002-4262-8afb-cf71e45d1956/5ff265b6-3037-44b2-b071-e81750b21783/IN-en-20240715-POP_SIGNUP_TWO_WEEKS-perspective_WEB_c6d6616f-4478-4ac2-bdac-f54b444771dd_large.jpg);
+    width: 100%;
+    height: 693px;
+    background-size:cover;
+    background-position: center;
+  
+    padding: 10px 8%;
+    margin: 10px auto;
+    position: relative;
+
+}
+
+.logo{
+    width: 160px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 50px;
+}
+.sign{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.b1{
+    border: 1px solid lightgray;
+   background: transparent;
+   margin-right: 20px;
+    color: white;
+    height: auto;
+    padding: 8px 20px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+.b1:hover{
+    border: 2px solid white;
+}
+.b2:hover{
+   background-color: red;
+   opacity: 0.8;
+   color: white;
+}
+.lan-icon{
+    margin: auto 20px auto 0px ;
+    width: 15px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.b2{
+    border: none;
+    background-color: red;
+    padding: 7px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+}
+.content{
+   display: flex;
+   justify-content: center;
+    margin-top: 200px;
+}
+.heading{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 17px;
+}
+.matter1{
+    font-size:28px ;
+    font-weight: 50%;
+    margin-bottom: 20px;
+
+}
+.matter2{
+    font-size: 20px;
+    margin-bottom:20px;
+}
+
+.heading,.matter1,.matter2{
+    display: flex;
+    justify-content: center;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.input{
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.348);
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    font-weight: 30%;
+}
+
+.f-button{
+    width: 200px;
+    font-size: 25px;
+    border: none;
+    background-color: red;
+    font-weight: bold;
+    color: white;
+    border-radius: 4px;
+    padding: 5px;
+}
+.f-button:hover{
+    opacity: 0.8;
+}
+hr{ 
+    margin: -10px 0px;
+    height: 10px;
+    background-color: rgb(33, 29, 29);
+    border: none;
+}
+
+.new1{
+    width: 100%;
+    padding: 80px 0px;
+}
+.row{
+    margin: 0% 12%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  
+}
+.n1{
+   font-size: 25px;
+   margin-right: 25px;
+
+} 
+
+.mat-n1{
+    font-size: 50px;
+    margin-bottom: 20px;
+  
+}
+
+.n1-img{
+   width: 50%;
+   margin-left: 10px;
+}
+.con-n1{
+    font-size: 22px;
+    margin-bottom: 10px;
+    
+}
+/* ------question---- */
+.question{
+   margin-top: 60px;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+.question h2{
+    font-size: 40px;
+    font-weight: 500;
+    
+}
+.ask{
+    margin: 10px auto;
+    width: 100%;
+    max-width: 80%;
+}
+
+.ask li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.ask li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+
+label::after{
+    content: '+';
+    font-size: 34px;
+    position:    absolute;
+    right: 20px;
+}
+input[type="radio"]{
+    display: none;
+}
+.ask .content-ask{
+    background: #303030;
+    text-align: left;
+    padding: 0px 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s,padding 0.5s;
+}
+.ask input[type="radio"]:checked+label+.content-ask{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+.mat-nr{
+    margin-top: 50px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.nrokzzzz{
+    height: 500px;
+    font-size: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    transition: font-size 5s,color 8s,text-shadow 10s;
+}
+.nrokzzzz:hover{
+    font-size: 100px;
+    color: rgb(255, 0, 0);
+    text-shadow: 5px 5px 30px rgb(255, 255, 255);
+}
